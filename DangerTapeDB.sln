@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DangerTapeDB", "DangerTapeDB\DangerTapeDB.sqlproj", "{A7E5CAEB-A949-4D61-924E-ABCDCD4C2679}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7E5CAEB-A949-4D61-924E-ABCDCD4C2679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7E5CAEB-A949-4D61-924E-ABCDCD4C2679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7E5CAEB-A949-4D61-924E-ABCDCD4C2679}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A7E5CAEB-A949-4D61-924E-ABCDCD4C2679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7E5CAEB-A949-4D61-924E-ABCDCD4C2679}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7E5CAEB-A949-4D61-924E-ABCDCD4C2679}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {26F21357-3BA8-45E6-ADB4-B04A5A93C7FD}
+	EndGlobalSection
+EndGlobal
