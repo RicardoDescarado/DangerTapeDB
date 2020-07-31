@@ -168,3 +168,27 @@ GO
 INSERT INTO [dbo].[ModeNotes] ([Id], [ModeId], [NoteOrder], [NoteNumber])
 SELECT 28, 4, 7, 12 WHERE NOT EXISTS (SELECT 28 FROM dbo.ModeNotes WHERE Id = 28)
 GO
+
+--Insert Mixolydian Mode--
+
+INSERT INTO [dbo].[ModeNotes] ([Id], [ModeId], [NoteOrder], [NoteNumber])
+SELECT 29, 5, 1, 1 WHERE NOT EXISTS (SELECT 29 FROM dbo.ModeNotes WHERE Id = 29)
+GO
+INSERT INTO [dbo].[ModeNotes] ([Id], [ModeId], [NoteOrder], [NoteNumber])
+SELECT 30, 5, 2, 3 WHERE NOT EXISTS (SELECT 30 FROM dbo.ModeNotes WHERE Id = 30)
+GO
+INSERT INTO [dbo].[ModeNotes] ([Id], [ModeId], [NoteOrder], [NoteNumber])
+SELECT 31, 5, 3, 5 WHERE NOT EXISTS (SELECT 31 FROM dbo.ModeNotes WHERE Id = 31)
+GO
+INSERT INTO [dbo].[ModeNotes] ([Id], [ModeId], [NoteOrder], [NoteNumber])
+SELECT 32, 5, 4, 6 WHERE NOT EXISTS (SELECT 32 FROM dbo.ModeNotes WHERE Id = 32)
+GO
+INSERT INTO [dbo].[ModeNotes] ([Id], [ModeId], [NoteOrder], [NoteNumber])
+SELECT 33, 5, 5, 8 WHERE NOT EXISTS (SELECT 33 FROM dbo.ModeNotes WHERE Id = 33)
+GO
+INSERT INTO [dbo].[ModeNotes] ([Id], [ModeId], [NoteOrder], [NoteNumber])
+SELECT 34, 5, 6, 10 WHERE NOT EXISTS (SELECT 34 FROM dbo.ModeNotes WHERE Id = 34)
+GO
+INSERT INTO [dbo].[ModeNotes] ([Id], [ModeId], [NoteOrder], [NoteNumber])
+SELECT 35, 5, 7, 11 WHERE NOT EXISTS (SELECT 35 FROM dbo.ModeNotes WHERE Id = 35)
+GO
