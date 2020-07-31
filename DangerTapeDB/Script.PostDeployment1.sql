@@ -96,3 +96,27 @@ GO
 INSERT INTO [dbo].[ModeNotes] ([Id], [ModeId], [NoteOrder], [NoteNumber])
 SELECT 7, 1, 7, 12 WHERE NOT EXISTS (SELECT 7 FROM dbo.ModeNotes WHERE Id = 7)
 GO
+
+--Insert Dorian Mode--
+
+INSERT INTO [dbo].[ModeNotes] ([Id], [ModeId], [NoteOrder], [NoteNumber])
+SELECT 8, 2, 1, 1 WHERE NOT EXISTS (SELECT 8 FROM dbo.ModeNotes WHERE Id = 8)
+GO
+INSERT INTO [dbo].[ModeNotes] ([Id], [ModeId], [NoteOrder], [NoteNumber])
+SELECT 9, 2, 2, 3 WHERE NOT EXISTS (SELECT 9 FROM dbo.ModeNotes WHERE Id = 9)
+GO
+INSERT INTO [dbo].[ModeNotes] ([Id], [ModeId], [NoteOrder], [NoteNumber])
+SELECT 10, 2, 3, 4 WHERE NOT EXISTS (SELECT 10 FROM dbo.ModeNotes WHERE Id = 10)
+GO
+INSERT INTO [dbo].[ModeNotes] ([Id], [ModeId], [NoteOrder], [NoteNumber])
+SELECT 11, 2, 4, 6 WHERE NOT EXISTS (SELECT 11 FROM dbo.ModeNotes WHERE Id = 11)
+GO
+INSERT INTO [dbo].[ModeNotes] ([Id], [ModeId], [NoteOrder], [NoteNumber])
+SELECT 12, 2, 5, 8 WHERE NOT EXISTS (SELECT 12 FROM dbo.ModeNotes WHERE Id = 12)
+GO
+INSERT INTO [dbo].[ModeNotes] ([Id], [ModeId], [NoteOrder], [NoteNumber])
+SELECT 13, 2, 6, 10 WHERE NOT EXISTS (SELECT 13 FROM dbo.ModeNotes WHERE Id = 13)
+GO
+INSERT INTO [dbo].[ModeNotes] ([Id], [ModeId], [NoteOrder], [NoteNumber])
+SELECT 14, 2, 7, 11 WHERE NOT EXISTS (SELECT 14 FROM dbo.ModeNotes WHERE Id = 14)
+GO
