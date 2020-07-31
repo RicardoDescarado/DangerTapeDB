@@ -60,8 +60,13 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\NoteNames.sql" />
+    <Build Include="Tables\Modes.sql" />
+    <Build Include="Tables\ModeNotes.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Script.PostDeployment1.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="DangerTapeDB.refactorlog" />
   </ItemGroup>
 </Project>
