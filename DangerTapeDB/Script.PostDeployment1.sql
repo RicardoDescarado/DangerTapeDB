@@ -72,3 +72,4 @@ GO
 INSERT INTO [dbo].[Modes] ([Id], [Name])
 SELECT 7, N'Locrian' WHERE NOT EXISTS (SELECT 7 FROM dbo.Modes WHERE Id = 7)
 GO
+
