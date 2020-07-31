@@ -9,6 +9,10 @@ Post-Deployment Script Template
                SELECT * FROM [$(TableName)]					
 --------------------------------------------------------------------------------------
 */
+
+--Insert Note Names--
+
+
 INSERT INTO [dbo].[NoteNames] ([Id], [Name])
 SELECT 1, N'C' WHERE NOT EXISTS (SELECT 1 FROM dbo.NoteNames WHERE Id = 1)
 GO
@@ -43,4 +47,28 @@ INSERT INTO [dbo].[NoteNames] ([Id], [Name])
 SELECT 11, N'A#' WHERE NOT EXISTS (SELECT 11 FROM dbo.NoteNames WHERE Id = 11)
 GO
 INSERT INTO [dbo].[NoteNames] ([Id], [Name]) SELECT 12, N'B' WHERE NOT EXISTS (SELECT 12 FROM dbo.NoteNames WHERE Id = 12)
+GO
+
+--Insert Mode Names--
+
+INSERT INTO [dbo].[Modes] ([Id], [Name])
+SELECT 1, N'Ionian' WHERE NOT EXISTS (SELECT 1 FROM dbo.Modes WHERE Id = 1)
+GO
+INSERT INTO [dbo].[Modes] ([Id], [Name])
+SELECT 2, N'Dorian' WHERE NOT EXISTS (SELECT 2 FROM dbo.Modes WHERE Id = 2)
+GO
+INSERT INTO [dbo].[Modes] ([Id], [Name])
+SELECT 3, N'Phrygian' WHERE NOT EXISTS (SELECT 3 FROM dbo.Modes WHERE Id = 3)
+GO
+INSERT INTO [dbo].[Modes] ([Id], [Name])
+SELECT 4, N'Lydian' WHERE NOT EXISTS (SELECT 4 FROM dbo.Modes WHERE Id = 4)
+GO
+INSERT INTO [dbo].[Modes] ([Id], [Name])
+SELECT 5, N'Mixolydian' WHERE NOT EXISTS (SELECT 5 FROM dbo.Modes WHERE Id = 5)
+GO
+INSERT INTO [dbo].[Modes] ([Id], [Name])
+SELECT 6, N'Aeolian' WHERE NOT EXISTS (SELECT 6 FROM dbo.Modes WHERE Id = 6)
+GO
+INSERT INTO [dbo].[Modes] ([Id], [Name])
+SELECT 7, N'Locrian' WHERE NOT EXISTS (SELECT 7 FROM dbo.Modes WHERE Id = 7)
 GO
